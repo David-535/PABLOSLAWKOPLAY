@@ -1,0 +1,52 @@
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  padding: 2px 16px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 4px 4px;
+}
+body {
+  background-color: rgba(7, 103, 182, 0.74);
+}
+a {
+  text-decoration: none;
+}
+b {
+  color: black;
+}
+h1 {
+  color: black;
+}
+img {
+  border-radius: 20px;
+}
+.menu li a {
+  text-decoration: none;
+  font: 25px Arial Black;
+}
+.menu li {
+  border: 1px solid black;
+  background-color: rgba(7, 103, 182, 0.74);
+  height: 50px;
+  width: 430px;
+  float: left;
+}
+.menu li a:hover {
+  color: red;
+}
+.menu {
+  list-style-type: none;
+  padding: 0px;
+  text-align: center;
+  text-shadow: blue 16px;
+  overflow: hidden;
+}
