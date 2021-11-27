@@ -1,5 +1,5 @@
 .container {
-  width: 1000px;
+  height: 9000;
   border: 1px solid black;
   margin: 0 auto;
 }
@@ -109,6 +109,7 @@ footer {
 }
 
 panel {
+  height: 300;
   border: 1px solid black;
   display: inline-block;
   float: left;
@@ -121,7 +122,7 @@ panel {
 }
 info {
   border: 1px solid black;
-  height: 300px;
+  height: 9000px;
   width: 900px;
   display: inline-block;
 }
@@ -134,8 +135,8 @@ info {
 }
 
 .name {
-  width: 700px;
-  height: 128px;
+  width: 760px;
+  /* height: 128px; */
   border: 1px solid black;
   display: inline-block;
 }
@@ -169,4 +170,29 @@ info {
   align-items: flex-start; */
   align-items: center;
   justify-content: space-between;
+}
+.p33{
+  margin-left: 45px;
+}
+.p3{
+  
+  margin-left:20px ;
+}
+.friend {
+ 
+  flex-basis: 20%;
+}
+.podpis {
+  
+  flex-basis: 20%;
+}
+.nen{
+  display: flex;
+}
+.bor{
+  border: black solid 1px;
+}
+.podpis {
+  
+  flex-basis: 20%;
 }
